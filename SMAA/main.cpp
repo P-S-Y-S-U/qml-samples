@@ -1,6 +1,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQuickView>
+#include <QQmlEngine>
+
+#include "CustomGeom.h"
 
 int main(int argc, char *argv[])
 {
@@ -12,6 +15,8 @@ int main(int argc, char *argv[])
 
     QQuickView view;
     view.setMinimumSize( QSize{ 1920, 1080 } );
+
+    qmlRegisterType<Quad>( "CustomGeometry", 1.0, 0.0, "Quad" );
 
     QSurfaceFormat format;
     format.setRedBufferSize(8);

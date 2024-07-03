@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SMAA.qml</file>
+        <file>shaders/SMAA_BlendingWeight.frag</file>
+        <file>shaders/SMAA_BlendingWeight.vert</file>
+        <file>shaders/SMAA_EdgeDetection.frag</file>
+        <file>shaders/SMAA_EdgeDetection.vert</file>
+        <file>shaders/SMAA_NeighbourhoodBlending.frag</file>
+        <file>shaders/SMAA_NeighbourhoodBlending.vert</file>
+        <file>textures/AreaTex.png</file>
+        <file>textures/SearchTex.png</file>
+        <file>TexMaterial.qml</file>
+        <file>shaders/sample_texture.frag</file>
+        <file>shaders/sample_texture.vert</file>
+        <file>textures/AfterZoom.png</file>
+        <file>textures/Text_Sample.png</file>
+        <file>shaders/fxaa_org.frag</file>
+        <file>shaders/fxaa_org.vert</file>
+        <file>shaders/sampler_test.frag</file>
+    </qresource>
+</RCC>

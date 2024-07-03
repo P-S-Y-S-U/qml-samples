@@ -10,5 +10,10 @@
         <file>shaders/SMAA_NeighbourhoodBlending.vert</file>
         <file>textures/AreaTex.png</file>
         <file>textures/SearchTex.png</file>
+        <file>TexMaterial.qml</file>
+        <file>shaders/sample_texture.frag</file>
+        <file>shaders/sample_texture.vert</file>
+        <file>textures/AfterZoom.png</file>
+        <file>textures/Text_Sample.png</file>
     </qresource>
 </RCC>

@@ -4,14 +4,18 @@ import QtQuick 2.12
 
 Effect {
 
-    Texture {
+    Texture {               
         id: areaImg
         source: "textures/AreaTex.png"
+        //flipV: true
+        format: Texture.RG8
     }
 
     Texture {
         id: searchImg
         source: "textures/SearchTex.png"
+        //flipV: true
+        format: Texture.R8
     }
 
     property TextureInput areaTex: TextureInput {
