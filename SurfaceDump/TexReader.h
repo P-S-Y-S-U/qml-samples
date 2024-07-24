@@ -6,15 +6,6 @@
 #include <GLES2/gl2ext.h>
 #include <memory>
 
-/**
- Using PBO to download is not encouraged, since the extension needed for it to do it on OpenGL ES 2
- is not available on TV board.
- ** Extensions needed for PBO **
-    - GL_EXT_map_buffer_range
-    - GL_OES_mapbuffer
-    - GL_NV_pixel_buffer_object
- If these Extensions are advertised in the System's API implementation, remove the below #define
- */
 #define TEXREADER_PBO_NOT_USED 
 
 class TexReader

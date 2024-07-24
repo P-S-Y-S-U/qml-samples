@@ -126,12 +126,16 @@ bool TexReader::DownloadUsingFBO(
 
     if( target == CaptureTarget::DEFAULT_FRAME_BUFFER )
     {
+        /*
+        glBindFramebuffer(GL_FRAMEBUFFER, 0);
+
         status = glCheckFramebufferStatus( GL_FRAMEBUFFER );
 
         if (status != GL_FRAMEBUFFER_COMPLETE) {
             //qCritical() << "TexReader::DownloadUsingFBO " << "fbo error: " << status;
             return false;
 	    }
+        */
 
         glReadPixels(
             xOffset, yOffset,
