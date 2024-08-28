@@ -1,5 +1,5 @@
-import QtQuick 2.15
-import QtQuick.Window 2.14
+import QtQuick 2.12
+import QtQuick.Window 2.12
 
 Rectangle
 {
@@ -26,7 +26,7 @@ Rectangle
         /*x: 100
         y: 100*/
         font.pixelSize: 50
-        antialiasing: false
+        antialiasing: true
     }
 }
 
