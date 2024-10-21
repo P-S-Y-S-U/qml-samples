@@ -2,3 +2,6 @@
 build*
 effects
 *.user
+*.png
+*.jpg
+*.jpeg
